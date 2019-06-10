@@ -10,9 +10,9 @@ contentType="text/html; charset=UTF-8"%>
 <body>
 	<div class="title">
 	
-	<div style="float: left;margin-left:20px;"><%= com.example.demo.Application.getTitle() %> | 世界银行</div>
+	<div style="float: left;margin-left:20px;"><%= com.example.demo.Application.getTitle() %> | 上海数慧</div>
 	
-	<div style="float: right;margin-right:20px;">服务器:
+	<div style="float: right;margin-right:20px;">服务器信息:
 		<%=java.net.InetAddress.getLocalHost().getHostName()%>
 		/<%=java.net.InetAddress.getLocalHost().getHostAddress()%></div>
 	</div>
